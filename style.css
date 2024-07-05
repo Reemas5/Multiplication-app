@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aqua;
+    font-family: cursive;
+}
+.form{
+    background-color: honeydew;
+    padding: 20px;
+    box-shadow: azure;
+    border-radius: 10px;
+    margin: 10px;
+}
+#input{
+    width: 100%;
+    display: block;
+    block-size: 30px;
+    border-color: blue;
+    text-align: center;
+}
+.btn{
+    display:flex;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    font-family: cursive;
+    
+
+}
+.btn:hover{
+    background-color: #333;
+}
